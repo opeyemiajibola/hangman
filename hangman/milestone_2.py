@@ -9,11 +9,11 @@ print(word) # print random choice
 
 # %%
 # Ask user to enter a single character
-guess = input('Enter a single letter')
-print(guess) # print user's input
+user_guess = input('Enter a single letter')
+print(user_guess) # print user's input
 
 # validate user input
-if len(guess) == 1 and guess.isalpha():
+if len(user_guess) == 1 and user_guess.isalpha():
     print("Good guess")
 else:
     print("Oops! That is not a valid input")
