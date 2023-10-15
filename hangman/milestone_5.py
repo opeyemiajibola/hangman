@@ -64,6 +64,13 @@ class Hangman:
         self.check_guess(guess)
 
 def play_game(word_list):
+    """
+        This function defines the logic of the hangman game
+
+        The purpose of this function is to define the logic of the hangman.
+        The function accepts input required to run each instance of the hangman game. 
+        Subsequently, the function runs an instance of the hangman game until the user wins or loses        
+    """
     num_lives = 5
     game = Hangman(word_list, num_lives)
     while 1 > 0:

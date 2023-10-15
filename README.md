@@ -14,4 +14,4 @@ Below are the usage instructions for each play of the Hangman game
 - Step 1: User provides a guessed character to the application.
 - Step 2: Application validate the entered character.
 - Step 3: Application confirms if entered character is present in the selected word. If character is present, application decrements number of pending characters. Otherwise, user looses a live and is allowed another attempt if live limit has not been reached. 
-- Step 4: Steps 1 to Step 3 is repeated until user loses or wins. 
+- Step 4: Steps 1 to Step 3 is repeated until the user loses or wins. 
