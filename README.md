@@ -8,7 +8,9 @@ The user has limited attempt to guess the alphabetical characters of the word se
 If a user is unable to guess the selected word before permitted number of failures is reached, the user loses the game. Otherwise, the user wins the game.
 
 ## Usage instructions
-Below are the usage instructions for the Hangman application
+To play the Hangman game, enter **"play_game(word_list)"** where ***word_list*** is a list of words from which a random word is selected for every play of the Hangman game.
+
+Below are the usage instructions for each play of the Hangman game
 - Step 1: User provides a guessed character to the application.
 - Step 2: Application validate the entered character.
 - Step 3: Application confirms if entered character is present in the selected word. If character is present, application decrements number of pending characters. Otherwise, user looses a live and is allowed another attempt if live limit has not been reached. 
